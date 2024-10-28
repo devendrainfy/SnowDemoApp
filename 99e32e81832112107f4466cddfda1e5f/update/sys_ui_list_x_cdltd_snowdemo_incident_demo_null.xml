@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_cdltd_snowdemo_incident_demo" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_cdltd_snowdemo_incident_demo" element="NULL" name="x_cdltd_snowdemo_incident_demo" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f6e04b8583a112107f4466cddfda1e5b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 06:49:48</sys_created_on>
+            <sys_id>f6e04b8583a112107f4466cddfda1e5c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 06:49:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="x_cdltd_snowdemo_incident_demo" element="NULL" name="x_cdltd_snowdemo_incident_demo" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f6e04b8583a112107f4466cddfda1e5b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 06:49:48</sys_created_on>
+            <sys_id>7ee04b8583a112107f4466cddfda1e5c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 06:49:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>caller</element>
+            <list_id display_value="x_cdltd_snowdemo_incident_demo" element="NULL" name="x_cdltd_snowdemo_incident_demo" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f6e04b8583a112107f4466cddfda1e5b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 06:49:48</sys_created_on>
+            <sys_id>fee04b8583a112107f4466cddfda1e5c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 06:49:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>priority</element>
+            <list_id display_value="x_cdltd_snowdemo_incident_demo" element="NULL" name="x_cdltd_snowdemo_incident_demo" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f6e04b8583a112107f4466cddfda1e5b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 06:49:48</sys_created_on>
+            <sys_id>72e04b8583a112107f4466cddfda1e5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 06:49:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_state</element>
+            <list_id display_value="x_cdltd_snowdemo_incident_demo" element="NULL" name="x_cdltd_snowdemo_incident_demo" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f6e04b8583a112107f4466cddfda1e5b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 06:49:48</sys_created_on>
+            <sys_id>f2e04b8583a112107f4466cddfda1e5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 06:49:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>category</element>
+            <list_id display_value="x_cdltd_snowdemo_incident_demo" element="NULL" name="x_cdltd_snowdemo_incident_demo" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f6e04b8583a112107f4466cddfda1e5b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 06:49:48</sys_created_on>
+            <sys_id>76e04b8583a112107f4466cddfda1e5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 06:49:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assignment_group</element>
+            <list_id display_value="x_cdltd_snowdemo_incident_demo" element="NULL" name="x_cdltd_snowdemo_incident_demo" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f6e04b8583a112107f4466cddfda1e5b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 06:49:48</sys_created_on>
+            <sys_id>f6e04b8583a112107f4466cddfda1e5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 06:49:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="x_cdltd_snowdemo_incident_demo" element="NULL" name="x_cdltd_snowdemo_incident_demo" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f6e04b8583a112107f4466cddfda1e5b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 06:49:48</sys_created_on>
+            <sys_id>7ae04b8583a112107f4466cddfda1e5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 06:49:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="x_cdltd_snowdemo_incident_demo" element="NULL" name="x_cdltd_snowdemo_incident_demo" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f6e04b8583a112107f4466cddfda1e5b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 06:49:48</sys_created_on>
+            <sys_id>fae04b8583a112107f4466cddfda1e5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 06:49:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_by</element>
+            <list_id display_value="x_cdltd_snowdemo_incident_demo" element="NULL" name="x_cdltd_snowdemo_incident_demo" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f6e04b8583a112107f4466cddfda1e5b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 06:49:48</sys_created_on>
+            <sys_id>7ee04b8583a112107f4466cddfda1e5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 06:49:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_cdltd_snowdemo_incident_demo</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 06:49:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f6e04b8583a112107f4466cddfda1e5b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_cdltd_snowdemo_incident_demo</sys_name>
+            <sys_package display_value="SnowDemo" source="x_cdltd_snowdemo">99e32e81832112107f4466cddfda1e5f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SnowDemo">99e32e81832112107f4466cddfda1e5f</sys_scope>
+            <sys_update_name>sys_ui_list_x_cdltd_snowdemo_incident_demo_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 06:49:48</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

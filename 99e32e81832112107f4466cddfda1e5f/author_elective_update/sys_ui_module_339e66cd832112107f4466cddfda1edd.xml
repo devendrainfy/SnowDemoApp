@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Incident">e90af51047210100ba13a5554ee490f8</application>
+        <filter/>
+        <name>Incident  Demos</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_cdltd_snowdemo.incident_demo_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-28 05:29:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>339e66cd832112107f4466cddfda1edd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Incident  Demos</sys_name>
+        <sys_package display_value="SnowDemo" source="x_cdltd_snowdemo">99e32e81832112107f4466cddfda1e5f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SnowDemo">99e32e81832112107f4466cddfda1e5f</sys_scope>
+        <sys_update_name>sys_ui_module_339e66cd832112107f4466cddfda1edd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-28 05:29:52</sys_updated_on>
+        <table>x_cdltd_snowdemo_incident_demo</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SnowDemo">99e32e81832112107f4466cddfda1e5f</application>
+        <file_path/>
+        <instance_id>11fbcdf8476d9250ad588549116d43bf</instance_id>
+        <instance_name>nowlearning-nlinst02177481-0001</instance_name>
+        <name>sys_ui_module_339e66cd832112107f4466cddfda1edd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Incident">e90af51047210100ba13a5554ee490f8</application><filter/><name>Incident  Demos</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_cdltd_snowdemo.incident_demo_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-28 05:29:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>339e66cd832112107f4466cddfda1edd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Incident  Demos</sys_name><sys_package display_value="SnowDemo" source="x_cdltd_snowdemo">99e32e81832112107f4466cddfda1e5f</sys_package><sys_policy/><sys_scope display_value="SnowDemo">99e32e81832112107f4466cddfda1e5f</sys_scope><sys_update_name>sys_ui_module_339e66cd832112107f4466cddfda1edd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-28 05:29:52</sys_updated_on><table>x_cdltd_snowdemo_incident_demo</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-1014771304</payload_hash>
+        <record_name>Incident  Demos</record_name>
+        <reverted_from/>
+        <source>a4c72e85832112107f4466cddfda1eb6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-28 05:29:52</sys_created_on>
+        <sys_id>b39e66cd832112107f4466cddfda1ee0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192d19a22120000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-28 05:29:52</sys_updated_on>
+        <type>Module</type>
+        <update_guid>f79e66cdae211210005789a87596afdf</update_guid>
+        <update_guid_history>f79e66cdae211210005789a87596afdf:-1014771304</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-28 05:31:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>8239de9910c34f1c83c642aa32389e90</sys_id>
+        <sys_metadata>339e66cd832112107f4466cddfda1edd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Incident  Demos</sys_name>
+        <sys_package display_value="SnowDemo" source="x_cdltd_snowdemo">99e32e81832112107f4466cddfda1e5f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SnowDemo">99e32e81832112107f4466cddfda1e5f</sys_scope>
+        <sys_scope_delete display_value="">0c9d83b9a6584b8080a3f2407d51c400</sys_scope_delete>
+        <sys_update_name>sys_ui_module_339e66cd832112107f4466cddfda1edd</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_339e66cd832112107f4466cddfda1edd">b39e66cd832112107f4466cddfda1ee0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-28 05:31:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

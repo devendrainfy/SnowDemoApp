@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a2d07681836112107f4466cddfda1edb" label="Incident Demo" max_length="40" name="x_cdltd_snowdemo_incident_demo" type="collection">
+        <element attributes="encode_utf8=false" dependent="assignment_group" dependent_on_field="assignment_group" label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element attributes="encode_utf8=false" label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element attributes="encode_utf8=false" label="Caller" mandatory="true" max_length="32" name="caller" reference="sys_user" type="reference"/>
+        <element choice="1" label="Category" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Software" sequence="0" value="software"/>
+                <element inactive_on_update="false" label="Hardware" sequence="1" value="hardware"/>
+                <element inactive_on_update="false" label="Network" sequence="2" value="network"/>
+                <element inactive_on_update="false" label="Database" sequence="3" value="database"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Channel" max_length="40" name="channel" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Chat" sequence="0" value="chat"/>
+                <element inactive_on_update="false" label="Email" sequence="1" value="email"/>
+                <element inactive_on_update="false" label="Phone" sequence="2" value="phone"/>
+                <element inactive_on_update="false" label="Self-Service" sequence="3" value="self-service"/>
+                <element inactive_on_update="false" label="Virtual Agent" sequence="4" value="virtual agent"/>
+                <element inactive_on_update="false" label="Walk-In" sequence="5" value="walk-in"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Configuration Item" max_length="32" name="configurationitem" reference="cmdb_ci" type="reference"/>
+        <element label="Configuration Item" max_length="40" name="configuration_item" type="string"/>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element label="impact" max_length="40" name="impact" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Priority" max_length="40" name="priority" read_only="true" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="1 - Critical" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2 - Heigh" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3 - Moderate" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4 -  Low" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5 - Planning" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Service" max_length="32" name="service" reference="cmdb_ci_service" type="reference"/>
+        <element attributes="encode_utf8=false" label="Service Offering" max_length="32" name="service_offering" reference="service_offering" type="reference"/>
+        <element label="Short Description" mandatory="true" max_length="160" name="short_description" type="string"/>
+        <element choice="1" dependent="category" dependent_on_field="category" label="Sub Category" max_length="40" name="sub_category" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Hardware" inactive_on_update="false" label="CPU" value="cpu"/>
+                <element dependent_value="Database" inactive_on_update="false" label="DB2" value="db2"/>
+                <element dependent_value="Network" inactive_on_update="false" label="DHCP" value="dhcp"/>
+                <element dependent_value="Hardware" inactive_on_update="false" label="Disk" value="disk"/>
+                <element dependent_value="Network" inactive_on_update="false" label="DNS" value="dns"/>
+                <element dependent_value="Software" inactive_on_update="false" label="Email" value="email"/>
+                <element dependent_value="Network" inactive_on_update="false" label="IP Address" value="ip address"/>
+                <element dependent_value="Hardware" inactive_on_update="false" label="Keyboard" value="keyboard"/>
+                <element dependent_value="Hardware" inactive_on_update="false" label="Memory" value="memory"/>
+                <element dependent_value="Hardware" inactive_on_update="false" label="Monitor" value="monitor"/>
+                <element dependent_value="Hardware" inactive_on_update="false" label="Mouse" value="mouse"/>
+                <element dependent_value="Database" inactive_on_update="false" label="MySql Server" value="mysql server"/>
+                <element dependent_value="Software" inactive_on_update="false" label="Operating System" value="operating system"/>
+                <element dependent_value="Database" inactive_on_update="false" label="Oracal" value="oracal"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="4000" name="u_description" type="string"/>
+        <element choice="1" default="3" label="Impact" max_length="40" name="u_impact" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="1 - Heigh" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2 - Medium" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3 - Low" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Short Description" mandatory="true" max_length="160" name="u_short_desription" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="new" label="State" max_length="40" name="u_state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="in progress"/>
+                <element inactive_on_update="false" label="On Hold" sequence="2" value="on hold"/>
+                <element inactive_on_update="false" label="Resolved" sequence="3" value="resolved"/>
+                <element inactive_on_update="false" label="Closed" sequence="4" value="closed"/>
+                <element inactive_on_update="false" label="Cancel" sequence="5" value="cancel"/>
+                <element inactive_on_update="false" label="Pending With User" sequence="6" value="pending with user"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="u_category" dependent_on_field="u_category" label="Sub Category" max_length="40" name="u_sub_category" type="string" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element choice="1" default="3" label="Urgency" max_length="40" name="u_urgency" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="1 - Heigh" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2 - Medium" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3 - Low" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index3">
+            <element name="caller"/>
+        </index>
+        <index name="index4">
+            <element name="configurationitem"/>
+        </index>
+        <index name="index5">
+            <element name="service"/>
+        </index>
+        <index name="index6">
+            <element name="service_offering"/>
+        </index>
+    </element>
+</database>
