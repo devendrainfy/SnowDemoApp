@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_cdltd_snowdemo_priority_data_lookup_for_sample_data">
+    <x_cdltd_snowdemo_priority_data_lookup_for_sample_data action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <order>800</order>
+        <sys_class_name>x_cdltd_snowdemo_priority_data_lookup_for_sample_data</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-28 07:45:03</sys_created_on>
+        <sys_id>a58d0f4583e112107f4466cddfda1ebd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>800</sys_name>
+        <sys_package display_value="SnowDemo" source="x_cdltd_snowdemo">99e32e81832112107f4466cddfda1e5f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SnowDemo">99e32e81832112107f4466cddfda1e5f</sys_scope>
+        <sys_update_name>x_cdltd_snowdemo_priority_data_lookup_for_sample_data_a58d0f4583e112107f4466cddfda1ebd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-28 07:47:35</sys_updated_on>
+        <u_impact>3</u_impact>
+        <u_priority>4</u_priority>
+        <u_urgency>2</u_urgency>
+    </x_cdltd_snowdemo_priority_data_lookup_for_sample_data>
+</record_update>

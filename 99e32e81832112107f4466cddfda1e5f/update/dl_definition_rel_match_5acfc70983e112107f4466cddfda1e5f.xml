@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="dl_definition_rel_match">
+    <dl_definition_rel_match action="INSERT_OR_UPDATE">
+        <dl_definition display_value="Priority Lookup For Sample Data">349fc30983e112107f4466cddfda1e8f</dl_definition>
+        <exact_match>false</exact_match>
+        <matcher_table>x_cdltd_snowdemo_priority_data_lookup_for_sample_data</matcher_table>
+        <matcher_table_field>u_urgency</matcher_table_field>
+        <source_table>x_cdltd_snowdemo_incident_demo</source_table>
+        <source_table_field>u_urgency</source_table_field>
+        <sys_class_name>dl_definition_rel_match</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-28 07:55:52</sys_created_on>
+        <sys_id>5acfc70983e112107f4466cddfda1e5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_urgency</sys_name>
+        <sys_package display_value="SnowDemo" source="x_cdltd_snowdemo">99e32e81832112107f4466cddfda1e5f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SnowDemo">99e32e81832112107f4466cddfda1e5f</sys_scope>
+        <sys_update_name>dl_definition_rel_match_5acfc70983e112107f4466cddfda1e5f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-28 07:55:52</sys_updated_on>
+    </dl_definition_rel_match>
+</record_update>

@@ -11,7 +11,7 @@
         <column_label>Priority</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>5</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -53,7 +53,7 @@
         <sys_scope display_value="SnowDemo">99e32e81832112107f4466cddfda1e5f</sys_scope>
         <sys_update_name>sys_dictionary_x_cdltd_snowdemo_incident_demo_priority</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-28 06:46:16</sys_updated_on>
+        <sys_updated_on>2024-10-28 08:04:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

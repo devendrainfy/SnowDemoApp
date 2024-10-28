@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Auto populate Subcategory based on category</description>
+        <field>category</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Auto populate field data by category</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	
+	if(g_form.getValue('category') == 'software'){
+		g_form.setReadOnly('sub_category',true);
+		setTimeout(function(){
+			g_form.setValue('short_description', 'Email is selected.');
+			g_form.setValue('sub_category', 'Email');	
+			g_form.setReadOnly('sub_category',false);
+		},2000);
+	
+	}
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-28 13:23:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>91e8941d832912107f4466cddfda1e3a</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Auto populate field data by category</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SnowDemo" source="x_cdltd_snowdemo">99e32e81832112107f4466cddfda1e5f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SnowDemo">99e32e81832112107f4466cddfda1e5f</sys_scope>
+        <sys_update_name>sys_script_client_91e8941d832912107f4466cddfda1e3a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-28 13:42:44</sys_updated_on>
+        <table>x_cdltd_snowdemo_incident_demo</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
