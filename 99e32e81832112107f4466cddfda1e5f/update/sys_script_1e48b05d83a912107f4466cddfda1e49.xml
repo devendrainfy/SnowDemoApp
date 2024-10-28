@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_cdltd_snowdemo_incident_demo</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_cdltd_snowdemo_incident_demo">u_state=resolved^EQ<item display_value="Resolved" endquery="false" field="u_state" goto="false" newquery="false" operator="=" or="false" value="resolved"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Resolve Incident with child task </name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	
+	var gr = new GlideRecord('incident_task');
+	gr.addQuery('incident',current.sys_id);
+	gr.query();
+	while(gr.next())
+	{
+		gr.state = 6;
+		gr.description = 'This is resolved by the parent incident.';
+		gr.update();
+	}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-28 15:34:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1e48b05d83a912107f4466cddfda1e49</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Resolve Incident with child task </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SnowDemo" source="x_cdltd_snowdemo">99e32e81832112107f4466cddfda1e5f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SnowDemo">99e32e81832112107f4466cddfda1e5f</sys_scope>
+        <sys_update_name>sys_script_1e48b05d83a912107f4466cddfda1e49</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-28 15:43:49</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=1e48b05d83a912107f4466cddfda1e49"/>
+</record_update>
